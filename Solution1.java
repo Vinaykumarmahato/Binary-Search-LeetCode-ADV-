@@ -1,4 +1,4 @@
-class Solution1 {
+class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
         int n2 = nums2.length;
@@ -27,5 +27,17 @@ class Solution1 {
         int c2 = Math.min(mid1 >= n1 ? Integer.MAX_VALUE : nums1[mid1], 
                           mid2 >= n2 ? Integer.MAX_VALUE : nums2[mid2]);
         return (c1 + c2) * 0.5;
+    }
+}
+
+public class Solution1 {
+    public static void main(String[] args) {
+        int[] nums1 = {1, 3, 5};
+        int[] nums2 = {2, 4, 6};
+        
+        Solution solution = new Solution();
+        double median = solution.findMedianSortedArrays(nums1, nums2);
+        
+        System.out.println("Median: " + median);
     }
 }
