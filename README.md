@@ -1,4 +1,4 @@
-📁 This repository contains my solutions to the Binary Search Tree challenges on LeetCode. Each challenge provides a problem statement and the goal is to implement the solution using the concepts and techniques related to binary search trees.
+📁 This repository contains my solutions to the Binary Search Tree challenges on LeetCode. Each challenge provides a problem statement and the goal is to implement the solution using the concepts and techniques related to binary search trees.  [Click me ] (https://leetcode.com/studyplan/binary-search/)
 
 ## 📝 Challenge Descriptions
 ### 🎯 Challenge 1: Invert Binary Tree
